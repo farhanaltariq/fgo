@@ -12,7 +12,7 @@ import (
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Println("Usage: fgoinstall install/get {module-path}")
+		fmt.Println("Usage: fgo install/get {module-path}")
 		os.Exit(1)
 	}
 
